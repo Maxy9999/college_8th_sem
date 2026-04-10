@@ -254,13 +254,13 @@ Reception permission check:
 printf 'LOGIN rec1 pass\nCOMPLETE 4001\nEXIT\n' | ./client
 ```
 
-/*## Known Limitations
+<!--## Known Limitations
 
 - Data files are binary and not human-readable
 - The client uses a simple CLI only
 - `MAX_CLIENTS` is configurable but not strictly enforced in the current server loop
 - The simulation uses randomized patient handling, so results vary between runs
-*/
+-->
 ## Author
 
 Manish Agarwal
